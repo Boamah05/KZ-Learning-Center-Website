@@ -1,16 +1,15 @@
-/* General Styles */
 body {
     margin: 0;
     padding: 0;
     font-family: 'Raleway', sans-serif;
-    background-color: yellowgreen;
+    background-color: rgb(241, 236, 236);
     color: #333;
 }
 
 header {
     text-align: center;
     padding: 2rem;
-    background-color: linear-gradient(to top, green 0%, rgb(78, 235, 86) 100%);
+    background-color: rgb(241, 236, 236);
     color: black;
 }
 
@@ -25,7 +24,6 @@ header {
     font-weight: 400;
 }
 
-/* Services Section */
 .services-container {
     display: flex;
     flex-wrap: wrap;
@@ -64,7 +62,7 @@ header {
 }
 
 .service-card button {
-    background-color: #007BFF;
+    background-color: #76c7ff;
     color: white;
     border: none;
     border-radius: 4px;
@@ -78,7 +76,6 @@ header {
     background-color: #0056b3;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .services-container {
         padding: 1rem;
